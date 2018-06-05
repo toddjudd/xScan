@@ -6,7 +6,7 @@ import cv2
 
 #init the cam and grab a reference to the row came captuer
 camera = PiCamera()
-camera.resoloution = (640, 480)
+camera.resolution = (640, 480)
 camera.framerate = 32
 rowCapture = PiRGBArray(camera, size=(640, 480))
 
